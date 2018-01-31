@@ -1,1 +1,11 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Dotcom</title><base href=""><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link href="styles.7c387c0025fbdef0cec4.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.89931aedf49037e99a43.bundle.js"></script><script type="text/javascript" src="polyfills.af90cb1d4c1664751f12.bundle.js"></script><script type="text/javascript" src="main.89f1c9c2305ba0211987.bundle.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Dotcom</title><base href="https://corbinsykes.github.io/kargodotcom/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link href="styles.a45b634be5901080fe4e.bundle.css" rel="stylesheet"/></head><body><!-- Github Pages hack to allow SPA refresh without receiving 404. --><script>(function () {
+            // Retrieve the URL the user was trying to access when receiving the 404.
+            var redirect = sessionStorage.redirect;
+            // Remove the URL from sessionStorage.
+            delete sessionStorage.redirect;
+            // Check if we actually need to redirect.
+            if (redirect && redirect != location.href) {
+                // We need to redirect to the URL the user was trying to access.
+                history.replaceState(null, null, redirect);
+            }
+        })();</script><!-- /Github Pages hack. --><app-root></app-root><script type="text/javascript" src="inline.e12b95475754ca0f3bdb.bundle.js"></script><script type="text/javascript" src="polyfills.af90cb1d4c1664751f12.bundle.js"></script><script type="text/javascript" src="main.699ca3f34b885d900740.bundle.js"></script></body></html>
